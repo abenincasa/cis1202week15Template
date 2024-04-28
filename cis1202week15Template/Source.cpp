@@ -9,20 +9,22 @@ This program is to explore the use of templates.
 template <typename T>
 T half(T number)
 {
-	return number / 2;
+	return number / 2.0;
 }
+int half(int);
 
 int main()
 {
-
 	double a = 7.0;
 	float b = 5.0f;
 	int c = 3;
-	// double roundX = round(x);
 
 	cout << half(a) << endl;
 	cout << half(b) << endl;
 	cout << half(c) << endl;
 
 	endProg();
+}
+int half(int value) {
+	return round(static_cast<float>(value)/2.0);
 }
