@@ -1,7 +1,7 @@
 /*
 Anthony (Tony) Benincasa 4/28/2024 CIS1202.N01
 Week 15 Template
-This program is 
+This program is to explore the use of templates.
 */
 
 #include "perslib.h"
